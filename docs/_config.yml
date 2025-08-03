@@ -41,3 +41,6 @@ parse:
     - tasklist
 launch_buttons:
   binderhub_url: "https://mybinder.org"
+
+execute:
+  execute_notebooks: "off"
