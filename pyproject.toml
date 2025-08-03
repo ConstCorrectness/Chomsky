@@ -28,3 +28,7 @@ dependencies = [
 requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
+[project.optional-dependencies]
+sphinx = ["jupyter-book"]
+pdfhtml = ["playwright", "pyppeteer"]
+pdflatex = ["sphinx", "latexcodec"]
