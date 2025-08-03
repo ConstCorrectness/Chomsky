@@ -1,3 +1,3 @@
 # Chomsky
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ConstCorrectness/Chomsky/main?urlpath=%2Fdoc%2Ftree%2Fdocs%2Flanding.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/constcorrectness/chomsky/HEAD?urlpath=lab/tree/docs)
