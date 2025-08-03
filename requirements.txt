@@ -71,7 +71,7 @@ narwhals==2.0.1
     #   altair
     #   plotly
     #   vegafusion
-numpy==2.3.2
+numpy==2.2.6
     # via
     #   -r requirements.in
     #   altair
