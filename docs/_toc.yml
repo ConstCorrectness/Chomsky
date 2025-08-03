@@ -10,5 +10,7 @@ parts:
 - caption: Contents
   chapters:
   - file: 01-introduction
+  - file: 02-electromagneticfield
   - file: notebooks
   - file: markdown-notebooks
+
