@@ -12,5 +12,3 @@ parts:
   - file: 01-introduction
   - file: notebooks
   - file: markdown-notebooks
-  - file: markdown
-  - file: landing
