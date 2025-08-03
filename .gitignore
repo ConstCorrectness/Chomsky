@@ -137,3 +137,33 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+--------------------------------------------------------------------------------
+
+# macOS
+.DS_Store
+
+# Py venvs
+venv/
+.venv/
+
+# Checkpoints
+.ipynb_checkpoints
+
+
+# Cache for pytest
+.pytest_cache/
+
+
+# Distribution
+*.egg
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# dotenv
+*.env
+
+--------------------------------------------------------------------------------
+
