@@ -34,6 +34,10 @@ html:
 parse:
   myst_enable_extensions:
     - amsmath
-    - 
+    - colon_fence
+    - deflist
+    - html_admonition
+    - html_image
+    - tasklist
 launch_buttons:
   binderhub_url: "https://mybinder.org"
