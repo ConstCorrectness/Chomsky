@@ -166,7 +166,6 @@ dist/
 *.env
 
 # Sphinx documentation
-docs/_build
 examples/_build
 jupyter_book/book_template/_build
 docs/conf.py
