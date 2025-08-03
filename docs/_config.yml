@@ -31,5 +31,9 @@ html:
   extra_navbar: std::forward<TS>(next)... && <a href="https://constcorrectness.github.io">ConstCorrectness&copy;</a>
   favicon: "images/favicon.ico"
 
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - 
 launch_buttons:
   binderhub_url: "https://mybinder.org"
