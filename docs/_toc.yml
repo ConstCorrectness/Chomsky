@@ -12,6 +12,4 @@ parts:
   - file: 01-introduction
   - file: 02-electromagneticfield
   - file: 03-flatearthproven
-  - file: notebooks
-  - file: markdown-notebooks
 
