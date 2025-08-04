@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Stemming &#8212; Stemming Lemmas</title>
+    <title>Stemming[:-2] &#8212; Stemming Lemmas</title>
   
   
   
@@ -62,7 +62,7 @@
     <link rel="icon" href="_static/favicon.ico"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Energy is carried by the electromagnetic field:" href="02-lemming.html" />
+    <link rel="next" title="Lemmatization -&gt; Lemma" href="02-lemming.html" />
     <link rel="prev" title="Ltemming Semmas" href="00-preface.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -187,9 +187,9 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Contents</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Stemming</a></li>
-<li class="toctree-l1"><a class="reference internal" href="02-lemming.html">Energy is carried by the electromagnetic field:</a></li>
-<li class="toctree-l1"><a class="reference internal" href="03-abs.html">Proof of a Flat Earth!</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Stemming[:-2]</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02-lemming.html">Lemmatization -&gt; Lemma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-abs.html">Saliency: the weighting of words</a></li>
 </ul>
 
     </div>
@@ -404,7 +404,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Stemming</h1>
+    <h1>Stemming[:-2]</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -418,8 +418,23 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="stemming">
-<h1>Stemming<a class="headerlink" href="#stemming" title="Link to this heading">#</a></h1>
+  <section id="stemming-2">
+<h1>Stemming[:-2]<a class="headerlink" href="#stemming-2" title="Link to this heading">#</a></h1>
+<blockquote>
+<div><p>“STEMing IS HIGHLIGHTing THE IMPORTANT PARTs OF A WORD”</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>me.</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Full real-world implementation to stem any given word</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">stem</span><span class="p">(</span><span class="n">words</span><span class="p">):</span>
+  <span class="k">return</span> <span class="p">[</span><span class="n">w</span><span class="p">[:</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span> <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">words</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -466,7 +481,7 @@ document.write(`
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Energy is carried by the electromagnetic field:</p>
+        <p class="prev-next-title">Lemmatization -&gt; Lemma</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
