@@ -6,10 +6,10 @@ root: intro
 parts:
 - caption: Preface
   chapters:
-  - file: 00-author
+  - file: 00-preface
 - caption: Contents
   chapters:
-  - file: 01-introduction
-  - file: 02-electromagneticfield
-  - file: 03-flatearthproven
+  - file: 01-stemming
+  - file: 02-lemming
+  - file: 03-abs
 

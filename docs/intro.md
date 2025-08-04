@@ -1,15 +1,66 @@
-# Chomsky
+# Chomsky v1
+
+| Chapter   | Title                      |
+|-----------|---------------------------|
+| Chapter 1 | Stemming                   |
+| Chapter 2 | Lemming                    |
+| Chapter 3 | abs(😡) > abs(😁)         |
+
+<details>
+<summary>How the first table was written</summary>
+
+```markdown
+| Chapter   | Title                      |
+|-----------|----------------------------|
+| Chapter 1 | Stemming                   |
+| Chapter 2 | Lemming                    |
+| Chapter 3 | abs(😡) > abs(😁)?        |
+```
+
+</details>
 
 
 
+# Chomsky v2
+<table style="width:100%">
+  <tr>
+    <th>Chapter</th>
+    <th>Title</th>
+  </tr>
+  <tr>
+    <td>Chapter 1</td>
+    <td>Stemming</td>
+  </tr>
+  <tr>
+    <td>Chapter 2</td>
+    <td>Lemming</td>
+  </tr>
+  <tr>
+    <td>Chapter 3</td>
+    <td>abs(😡) &gt; abs(😁)?</td>
+  </tr>
+</table>
 
+<details>
+<summary>How the second table was written</summary>
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
-
-Check out the content pages bundled with this sample book to see more.
-
-```{tableofcontents}
+```html
+<table style="width:100%">
+  <tr>
+    <th>Chapter</th>
+    <th>Title</th>
+  </tr>
+  <tr>
+    <td>Chapter 1</td>
+    <td>Stemming</td>
+  </tr>
+  <tr>
+    <td>Chapter 2</td>
+    <td>Lemming</td>
+  </tr>
+  <tr>
+    <td>Chapter 3</td>
+    <td>abs(😡) &gt; abs(😁)?</td>
+  </tr>
+</table>
 ```
