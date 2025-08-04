@@ -1,4 +1,6 @@
-# Chomsky v1
+# Intro
+
+## Chomsky v1
 
 | Chapter   | Title                      |
 |-----------|---------------------------|
@@ -19,9 +21,9 @@
 
 </details>
 
+<hr />
 
-
-# Chomsky v2
+## Chomsky v2
 <table style="width:100%">
   <tr>
     <th>Chapter</th>
